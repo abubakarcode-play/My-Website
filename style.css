@@ -6,9 +6,10 @@ body {
   
   /* Navbar container */
   .navbar {
-    background-color: #222;
+    background-color: #dfd4d4;
+    color: white;
     padding: 12px 0;
-    box-shadow: 0 2px 5px rgba(0,0,0,0.2);
+    box-shadow: 0 2px 5px rgba(139, 107, 107, 0.2);
     text-align: center;
   }
   
@@ -39,7 +40,7 @@ body {
   /* Active menu item */
   .nav-item.active {
     background-color: #4fd1c5;
-    color: #222;
+    color: white;
     font-weight: bold;
   }
   .carousal-container {
