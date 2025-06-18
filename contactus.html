@@ -4,6 +4,7 @@
     <title>Navigation Menu</title>
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="style1.css">
+    <link rel="stylesheet" href="style3.css">
 </head>
 
 <body>
@@ -15,7 +16,32 @@
             <li class="nav-item active"><a href="contactus.html">Contact Us</a></li>
         </ul>
     </nav>
-    <h1>Contact Us page</h1>
+    <div class="container">
+        <form>
+          <center>  <h2>Contact Us</h2></center>
+            <div class="row">
+                <input type="text" placeholder="Name" required />
+                <input type="tel" placeholder="Phone" required />
+                <input type="email" placeholder="Email" required />
+            </div>
+            <div class="row">
+                <input type="text" placeholder="Country" />
+                <input type="text" placeholder="Title" />
+                <input type="text" placeholder="Company" />
+            </div>
+            <textarea rows="5" placeholder="Message"></textarea>
+            <div class="checkbox-container">
+                <input type="checkbox" id="updates" />
+                <label for="updates">I want to receive  News & Updates by email & SMS</label>
+            </div>
+            <div class="recaptcha">I'm not a robot</div>
+            <button type="submit" class="submit-btn">Submit</button>
+        </form>
+    
+        <div class="right-panel">
+        </div>
+    </div>
+    
     
     <div class="footer">
         <p>@copy all rights and reserved by Abubakar shahid
